@@ -314,7 +314,6 @@ const data = useStaticQuery(graphql`
         node {
           frontmatter {
             title
-            cover
             tech
             github
             external
