@@ -314,11 +314,10 @@ const data = useStaticQuery(graphql`
         node {
           frontmatter {
             title
-            cover # Only fetch the value of the "cover" field
+            cover
             tech
             github
             external
-            cta
           }
           html
         }
